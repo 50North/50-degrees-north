@@ -221,11 +221,7 @@ body {
   flex-grow: 1;
   height: 100vh;
   margin: 0;
-background: url(/res/bg.jpg);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
+
 }
 .home-main-section .covers-img { 
   justify-content: flex-end;
@@ -247,7 +243,8 @@ background-attachment: fixed;
   
 }
 @media (max-width: 900px) {
-  .home-main-section .img-wrapper {
+  
+  .home-main-section .covers-img {
     display: none;
   }
   .home-main-section .call-to-action { 
@@ -309,7 +306,7 @@ background-attachment: fixed;
   justify-content: space-between;
   flex-grow: 1;
   height: 90vh;
-  background-color: #1b1e2b;
+  background-color: #4C566A;
 }
 .about-main-section .call-to-action{
   display: flex;
@@ -322,7 +319,7 @@ background-attachment: fixed;
   align-self: lex-end;
 }
 .about-main-section hr {
-  color: #4C566A;
+  color: #1b1e2b;
   border: .5rem solid ;
   margin: 0;
   width: 70%;
@@ -385,7 +382,7 @@ background-attachment: fixed;
   flex-direction: column;
   align-items: center;
   align-self: center;
-  background-color: #4C566A;
+  background-color: #1b1e2b;
   flex-grow: 1;
   height: 90vh;
   padding-top: 10rem;
@@ -405,7 +402,7 @@ background-attachment: fixed;
   margin: 2.5vw;
   text-align: center;
   font-family: arial;
-  background-color: #1b1e2b;
+  background-color: #4C566A;
   padding:1em
 }
 
@@ -420,7 +417,7 @@ button {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #4C566A;
+  background-color: #1b1e2b;
   text-align: center;
   cursor: pointer;
   width: 100%;
