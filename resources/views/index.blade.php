@@ -19,10 +19,10 @@
         </a>
         <nav class="main-nav">
           <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="{{ url('/') }}">About</a></li>
+            <li><a href="{{ url('/') }}">Work</a></li>
+            <li><a href="{{ url('/') }}">Blog</a></li>
+            <li><a href="{{ url('/') }}">Contact</a></li>
           </ul>
         </nav>
         <nav class="footer-nav">
