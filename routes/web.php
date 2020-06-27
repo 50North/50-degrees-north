@@ -13,12 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
-Route::get('work', function () {
-    return view('work');
-});
-Route::get('hello', function () {
-    return view('welcome');
-});
+//Routes should be set to controllers, rather than directly accessing the views
+Route::get('/', 'PagesController@getIndex');
+
+Route::get('work', 'PagesController@getWork');
+
+Route::get('web-design', 'PagesController@getWebDesign');
