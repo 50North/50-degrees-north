@@ -403,7 +403,17 @@ body {
   text-align: center;
   font-family: arial;
   background-color: #4C566A;
-  padding:1em
+  padding:1em;
+}
+
+.card-dark {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 450px;
+  margin: 2.5vw;
+  text-align: center;
+  font-family: arial;
+  background-color: black;
+  padding:1em;
 }
 
 .card-title {

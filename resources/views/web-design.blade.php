@@ -33,11 +33,13 @@
         <img class="covers-img" src="res/mount.jpg" />
       
       <div class="call-to-action ">
-        <h1 class="title">Data Analysis</h1>
+        <h1 class="title">OUR WORK</h1>
         <hr>
-        <p class="description">Unlock hidden potential from your data.
+        <p class="description">We specialise in information management. 
+          We provide digital tools and solutions to help you bridge 
+          the gap between data and powerful information.
         </p>
-        <a href="{{ url('work') }}" class="btn">View Projects</a>
+        <a href="about.html" class="btn">OUR WORK</a>
         </div>
     </section>
 
@@ -46,14 +48,23 @@
 
     <section class="showcase-main-section ">
       
-      <span class="slogan">Website Design</span>
-      <p>I mean with a website this pretty, this is a given. </p>
+      <span class="slogan"> See what I’ve been doing on Tableau public..</span>
       <div class="call-to-action  animate-this">
-            <div class="card-dark">
+            <div class="card">
               <img src="/res/showcase.PNG" alt="John" style="width:100%">
               <p class="card-title">Coronavirus Analysis</p>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Accusamus quidem commodi provident ex amet,  </p>
-              <a href="{{ url('work') }}"><p><button>look inside</button></p></a>
+              <p><button>look inside</button></p>
+            </div><div class="card">
+              <img src="/res/showcase.PNG" alt="John" style="width:100%">
+              <p class="card-title">Coronavirus Analysis</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quidem commodi provident ex amet, </p>
+              <p><button>look inside</button></p>
+            </div><div class="card">
+              <img src="/res/showcase.PNG" alt="John" style="width:100%">
+              <p class="card-title">Coronavirus Analysis</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus quidem commodi provident ex amet, </p>
+              <p><button>look inside</button></p>
             </div>
            
       </div>

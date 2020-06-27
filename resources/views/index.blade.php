@@ -34,7 +34,7 @@
         <img class="covers-img" src="res/mount.jpg" />
       
       <div class="call-to-action ">
-        <h1 class="title"  ">OUR WORK</h1>
+        <h1 class="title">OUR WORK</h1>
         <hr>
         <p class="description">We specialise in information management. 
           We provide digital tools and solutions to help you bridge 

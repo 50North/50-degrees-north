@@ -5,7 +5,7 @@
         <nav class="main-nav">
           <ul class="nav-links">
             <li><a href="{{ url('/') }}">About</a></li>
-            <li><a href="{{ url('/') }}">Work</a></li>
+            <li><a href="{{ url('work') }}">Work</a></li>
             <li><a href="{{ url('/') }}">Blog</a></li>
             <li><a href="{{ url('/') }}">Contact</a></li>
           </ul>
