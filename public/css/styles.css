@@ -384,7 +384,7 @@ body {
   align-self: center;
   background-color: #1b1e2b;
   flex-grow: 1;
-  height: 90vh;
+  min-height: 90vh;
   padding-top: 10rem;
 }
 .showcase-main-section .call-to-action{
