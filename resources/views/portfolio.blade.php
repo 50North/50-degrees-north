@@ -19,17 +19,7 @@
 
 
 
-        <section class="home-main-section ">
-            <div class="call-to-action  animate-this">
-                <h1 class="title">50° NORTH</h1>
-                <p class="subtitle">Digital Solutions</p>
-                <span class="slogan"> This is a different page (work).</span>
-                <a href="{{ url('/') }}" class="btn">learn more</a>
-
-            </div>
-            <img class="covers-img" src="res/mount.jpg" />
-
-        </section>
+        
         <section id="about" class="about-main-section ">
 
             <img class="covers-img" src="res/mount.jpg" />
@@ -37,16 +27,16 @@
             <div class="call-to-action ">
                 <h1 class="title">Data Analysis</h1>
                 <hr>
-                <p class="description">Unlock hidden potential from your data.
+                <p class="description">Let's get vizzical.
                 </p>
-                <a href="{{ url('portfolio') }}" class="btn">View Projects</a>
+                <a href="#projects" class="btn">View Projects</a>
             </div>
         </section>
 
 
 
 
-        <section class="showcase-main-section ">
+        <section class="showcase-main-section" id="projects"> 
 
             <span class="slogan">Website Design</span>
             <p>I mean with a website this pretty, this is a given - right?. </p>

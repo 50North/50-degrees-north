@@ -16,5 +16,9 @@ class PagesController extends Controller {
     public function getWork(){
         return view('work');
     }
+
+    public function getPortfolio(){
+        return view('portfolio');
+    }
 }
 ?>

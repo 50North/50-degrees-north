@@ -6,7 +6,10 @@ function delay(n) {
     }, n);
   });
 }
-
+function scrollToItem() {
+  var elmnt = document.getElementById("main");
+  elmnt.scrollIntoView();
+}
 function pageTransition() {
   var tl = gsap.timeline();
   tl.to(".load-container div", {

@@ -19,3 +19,5 @@ Route::get('/', 'PagesController@getIndex');
 Route::get('work', 'PagesController@getWork');
 
 Route::get('web-design', 'PagesController@getWebDesign');
+
+Route::get('portfolio', 'PagesController@getPortfolio');
