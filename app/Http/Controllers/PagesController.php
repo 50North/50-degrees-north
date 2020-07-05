@@ -9,16 +9,15 @@ class PagesController extends Controller {
         return view('index');
     }
 
-    public function getWebDesign(){
-        return view('web-design');
-    }
-
     public function getWork(){
         return view('work');
     }
 
-    public function getPortfolio(){
-        return view('portfolio');
+    public function getWebPortfolio(){
+        return view('work');
+    }
+    public function getDataPortfolio(){
+        return view('work');
     }
 }
 ?>

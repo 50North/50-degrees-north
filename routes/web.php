@@ -18,6 +18,6 @@ Route::get('/', 'PagesController@getIndex');
 
 Route::get('work', 'PagesController@getWork');
 
-Route::get('web-design', 'PagesController@getWebDesign');
+Route::get('portfolio/web-design', 'PagesController@getWebPortfolio');
 
-Route::get('portfolio', 'PagesController@getPortfolio');
+Route::get('portfolio/data-analysis', 'PagesController@getDataPortfolio');

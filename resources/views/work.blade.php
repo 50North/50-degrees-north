@@ -39,7 +39,7 @@
                 <hr>
                 <p class="description">Unlock hidden potential from your data.
                 </p>
-                <a href="{{ url('portfolio') }}" class="btn">View Projects</a>
+                <a href="{{ url('portfolio/data-analysis') }}" class="btn">View Projects</a>
             </div>
         </section>
 
